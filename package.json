@@ -1,0 +1,35 @@
+{
+  "name": "@stdlib/math-base-utils-absolute-difference",
+  "version": "0.0.0",
+  "description": "Compute the absolute difference of two real numbers.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/math-base-utils-absolute-difference.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "mathematics",
+    "math",
+    "absolute",
+    "difference",
+    "abs",
+    "diff",
+    "absdiff",
+    "error",
+    "distance",
+    "dist",
+    "numbers"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
