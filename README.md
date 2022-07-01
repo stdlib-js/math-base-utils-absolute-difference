@@ -41,32 +41,30 @@ The [absolute difference][absolute-difference] of two real `numbers` is defined 
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-utils-absolute-difference
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-absdiff = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-utils-absolute-difference@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-utils-absolute-difference@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.absdiff;
-})();
-</script>
+var absdiff = require( '@stdlib/math-base-utils-absolute-difference' );
 ```
 
 #### absdiff( x, y )
@@ -115,14 +113,9 @@ d = absdiff( -Infinity, Infinity );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-utils-absolute-difference@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var absdiff = require( '@stdlib/math-base-utils-absolute-difference' );
 
 var x;
 var y;
@@ -135,11 +128,6 @@ for ( i = 0; i < 100; i++ ) {
     d = absdiff( x, y );
     console.log( 'x = %d. y = %d. |x-y| = %d.', x, y, d );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -226,6 +214,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/math-base-utils-absolute-difference/tree/deno
 [umd-url]: https://github.com/stdlib-js/math-base-utils-absolute-difference/tree/umd
 [esm-url]: https://github.com/stdlib-js/math-base-utils-absolute-difference/tree/esm
+[branches-url]: https://github.com/stdlib-js/math-base-utils-absolute-difference/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-base-utils-absolute-difference/main/LICENSE
 
@@ -233,9 +222,9 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/utils/relative-difference]: https://github.com/stdlib-js/math-base-utils-relative-difference/tree/umd
+[@stdlib/math/base/utils/relative-difference]: https://github.com/stdlib-js/math-base-utils-relative-difference
 
-[@stdlib/math/base/utils/float64-epsilon-difference]: https://github.com/stdlib-js/math-base-utils-float64-epsilon-difference/tree/umd
+[@stdlib/math/base/utils/float64-epsilon-difference]: https://github.com/stdlib-js/math-base-utils-float64-epsilon-difference
 
 <!-- </related-links> -->
 
