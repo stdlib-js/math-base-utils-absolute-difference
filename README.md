@@ -63,7 +63,7 @@ The [absolute difference][absolute-difference] of two real `numbers` is defined 
 ## Usage
 
 ```javascript
-import absdiff from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-utils-absolute-difference@esm/index.mjs';
+import absdiff from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-utils-absolute-difference@v0.2.0-esm/index.mjs';
 ```
 
 #### absdiff( x, y )
@@ -119,7 +119,7 @@ d = absdiff( -Infinity, Infinity );
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import absdiff from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-utils-absolute-difference@esm/index.mjs';
+import absdiff from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-utils-absolute-difference@v0.2.0-esm/index.mjs';
 
 var x;
 var y;
