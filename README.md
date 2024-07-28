@@ -63,6 +63,11 @@ The [absolute difference][absolute-difference] of two real `numbers` is defined 
 ## Usage
 
 ```javascript
+import absdiff from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-utils-absolute-difference@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-utils-absolute-difference/tags). For example,
+
+```javascript
 import absdiff from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-utils-absolute-difference@v0.3.2-esm/index.mjs';
 ```
 
@@ -119,7 +124,7 @@ d = absdiff( -Infinity, Infinity );
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import absdiff from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-utils-absolute-difference@v0.3.2-esm/index.mjs';
+import absdiff from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-utils-absolute-difference@esm/index.mjs';
 
 var x;
 var y;
